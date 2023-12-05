@@ -7,7 +7,7 @@ function start() {
   document.getElementById("questions").setAttribute("class", "start");
   startQuiz.innerHTML = "";
   let title = document.getElementById("question-title");
-  let choices = document.getElementById("choices")
+  let choices = document.getElementById("choices");
   title.textContent = questions[arrIndex].question;
 
   startQuiz.append(choices);
@@ -20,28 +20,41 @@ function start() {
     buttonEl.addEventListener("click", handleChoice);
     // append
     startQuiz.append(buttonEl);
+   
   }
 
-  button.setAttribute("class", "hide");
+  // button.setAttribute("class", "hide");
+
+  // if (start) {
+  //   (i) === 5;
+  //   [
+  //     document.getElementById("questions").setAttribute("class", "hide"),
+  //     document.getElementById("end-screen").setAttribute("class", "start"),
+  //   ];
+  // }
+//  finish ();
 }
 
 function handleChoice() {
   arrIndex++;
-
+  if (arrIndex === questions.length)
+  finish (); 
+  else
   start();
 }
 
 function finish() {
-    document.getElementById("questions").setAttribute("class", "hide");
-    document.getElementById("end-screen").setAttribute("class", "start");
-    // startQuiz.innerHTML = "";
-    // let title = document.getElementById("question-title");
-    // let choices = document.getElementById("choices")
-    
+  // if (start.i) {
+  //   (i) === 5;
+  //   [
+      document.getElementById("questions").setAttribute("class", "hide");
+      document.getElementById("end-screen").setAttribute("class", "start");
+  //   ];
+  // }
+
+  // startQuiz.innerHTML = "";
+  // let title = document.getElementById("question-title");
+  // let choices = document.getElementById("choices")
 }
 
 button.addEventListener("click", start);
-
-if (start) {
-    i=>5; finish();
-}
