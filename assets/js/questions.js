@@ -2,7 +2,7 @@
 
 var questions = [
     {
-      question: "Question: What is the HTML tag under which you can write the JavaScript code?",
+      question: "What is the HTML tag under which you can write the JavaScript code?",
       answerChoice: [
         "A) <javascript>",
         "B) <scripted>",
@@ -12,7 +12,7 @@ var questions = [
       correctAnswer: 2,
     },
     {
-      question: "Question: What are variables used for in JavaScript Programs?",
+      question: "What are variables used for in JavaScript Programs?",
       answerChoice: [
         "A) Storing numbers, dates, or other values",
         "B) Varying randomly",
@@ -22,12 +22,12 @@ var questions = [
       correctAnswer: 0,
     },
     {
-      question:"Question: Which method adds a new item to the end of an array and returns the new length?",
+      question:"Which method adds a new item to the end of an array and returns the new length?",
       answerChoice: ["A) shift()", "B) return() ", "C) push() ", "D) pop()"],
       correctAnswer: 2,
     },
     {
-      question:"Question: Which of the following can't be done with client-side JavaScript?",
+      question:"Which of the following can't be done with client-side JavaScript?",
       answerChoice: [
         "A) Sending a form's contents by email",
         "B) Validating a form",
@@ -37,7 +37,7 @@ var questions = [
       correctAnswer: 2,
     },
     {
-      question:"Question: Which of the following are capabilities of functions in JavaScript?",
+      question:"Which of the following are capabilities of functions in JavaScript?",
       answerChoice: [
         "A) Return a value",
         "B) Accept parameters",
