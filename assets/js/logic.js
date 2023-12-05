@@ -30,5 +30,18 @@ function handleChoice() {
 
   start();
 }
+
+function finish() {
+    document.getElementById("questions").setAttribute("class", "hide");
+    document.getElementById("end-screen").setAttribute("class", "start");
+    // startQuiz.innerHTML = "";
+    // let title = document.getElementById("question-title");
+    // let choices = document.getElementById("choices")
+    
+}
+
 button.addEventListener("click", start);
 
+if (start) {
+    i=>5; finish();
+}
